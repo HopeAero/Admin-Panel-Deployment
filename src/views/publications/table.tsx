@@ -64,48 +64,48 @@ const Table: FunctionComponent<Props> = ({
         headers={[
           {
             columnLabel: 'ID',
-            fieldName: 'publicationId',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.publicationId
           },
           {
             columnLabel: 'Nombre',
-            fieldName: 'projectName',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.projectName
           },
           {
             columnLabel: 'Descripción de Proyecto',
-            fieldName: 'projectDescription',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.projectDescription
           },
           {
             columnLabel: 'Descripción de Postulación',
-            fieldName: 'applicationDescription',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.applicationDescription
           },
           {
             columnLabel: 'Dificultad',
-            fieldName: 'difficulty',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.difficulty
           },
           {
             columnLabel: 'Estado',
-            fieldName: 'status',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.status
           },
           {
             columnLabel: 'Lider de Proyecto',
-            fieldName: 'userLeadName',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.userLeadName
           },
           {
             columnLabel: 'Creación',
-            fieldName: 'createdAt',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.createdAt
           },
           {
             columnLabel: 'Ultima Actualización',
-            fieldName: 'updatedAt',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.updatedAt
           }
         ]}
         rows={items}

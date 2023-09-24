@@ -63,7 +63,7 @@ const MenuCard = () => {
               sx={{ mt: 0 }}
               primary={
                 <Typography variant="subtitle1" sx={{ color: theme.palette.secondary[800] }}>
-                  JDM
+                  Grouply App
                 </Typography>
               }
               secondary={<EcoMessage />}
