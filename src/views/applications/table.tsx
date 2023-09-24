@@ -81,18 +81,18 @@ const Table: FunctionComponent<Props> = ({
             cellAlignment: 'left'
           },
           {
-            columnLabel: 'isAccepted',
+            columnLabel: 'Respuesta',
             fieldName: 'isAccepted',
             cellAlignment: 'left'
           },
           {
             columnLabel: 'Creación',
-            fieldName: 'applicationCreatedAt',
+            fieldName: 'createdAt',
             cellAlignment: 'left'
           },
           {
             columnLabel: 'Última Actualización',
-            fieldName: 'applicationUpdatedAt',
+            fieldName: 'updatedAt',
             cellAlignment: 'left'
           }
         ]}
