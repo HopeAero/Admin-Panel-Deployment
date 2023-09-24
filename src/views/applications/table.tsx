@@ -66,9 +66,9 @@ const Table: FunctionComponent<Props> = ({
       <DynamicTable
         headers={[
           {
-            columnLabel: 'Publication',
+            columnLabel: 'Publicación',
             cellAlignment: 'left',
-            onRender: (row: any) => row.publication.publicationId
+            fieldName: 'publicationName'
           },
           {
             columnLabel: 'Postulante',
@@ -76,7 +76,7 @@ const Table: FunctionComponent<Props> = ({
             cellAlignment: 'left'
           },
           {
-            columnLabel: 'Description',
+            columnLabel: 'Descripción',
             fieldName: 'applicationDescription',
             cellAlignment: 'left'
           },

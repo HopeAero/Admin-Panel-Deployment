@@ -74,7 +74,7 @@ const Table: FunctionComponent<Props> = ({
           },
           {
             columnLabel: 'Nombre',
-            fieldName: 'name',
+            fieldName: 'skillName',
             cellAlignment: 'left'
           },
           {
