@@ -71,8 +71,8 @@ const Table: FunctionComponent<Props> = ({
             onRender: (row: any) => row.publication.publicationId
           },
           {
-            columnLabel: 'User',
-            fieldName: 'userId',
+            columnLabel: 'Postulante',
+            fieldName: 'userName',
             cellAlignment: 'left'
           },
           {
