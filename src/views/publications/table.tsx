@@ -69,12 +69,12 @@ const Table: FunctionComponent<Props> = ({
           },
           {
             columnLabel: 'Nombre',
-            fieldName: 'name',
+            fieldName: 'projectName',
             cellAlignment: 'left'
           },
           {
             columnLabel: 'Descripción de Proyecto',
-            fieldName: 'description',
+            fieldName: 'projectDescription',
             cellAlignment: 'left'
           },
           {
@@ -93,8 +93,8 @@ const Table: FunctionComponent<Props> = ({
             cellAlignment: 'left'
           },
           {
-            columnLabel: 'Id USUARIO CREADRO',
-            fieldName: 'userLeadId',
+            columnLabel: 'Lider de Proyecto',
+            fieldName: 'userLeadName',
             cellAlignment: 'left'
           },
           {

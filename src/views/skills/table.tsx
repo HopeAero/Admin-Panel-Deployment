@@ -63,13 +63,13 @@ const Table: FunctionComponent<Props> = ({
       <DynamicTable
         headers={[
           {
-            columnLabel: 'Categoria ID',
-            fieldName: 'skillCategoryId',
+            columnLabel: 'ID',
+            fieldName: 'skillId',
             cellAlignment: 'left'
           },
           {
-            columnLabel: 'Habilidad ID',
-            fieldName: 'skillId',
+            columnLabel: 'Categoria',
+            fieldName: 'skillCategoryName',
             cellAlignment: 'left'
           },
           {

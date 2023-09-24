@@ -67,8 +67,8 @@ const Table: FunctionComponent<Props> = ({
         headers={[
           {
             columnLabel: 'Publication',
-            fieldName: 'publicationId',
-            cellAlignment: 'left'
+            cellAlignment: 'left',
+            onRender: (row: any) => row.publication.publicationId
           },
           {
             columnLabel: 'User',
@@ -77,7 +77,7 @@ const Table: FunctionComponent<Props> = ({
           },
           {
             columnLabel: 'Description',
-            fieldName: 'description',
+            fieldName: 'applicationDescription',
             cellAlignment: 'left'
           },
           {
@@ -87,12 +87,12 @@ const Table: FunctionComponent<Props> = ({
           },
           {
             columnLabel: 'Creación',
-            fieldName: 'createdAt',
+            fieldName: 'applicationCreatedAt',
             cellAlignment: 'left'
           },
           {
             columnLabel: 'Última Actualización',
-            fieldName: 'updatedAt',
+            fieldName: 'applicationUpdatedAt',
             cellAlignment: 'left'
           }
         ]}

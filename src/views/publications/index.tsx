@@ -30,7 +30,7 @@ const Publications: FunctionComponent<Prop> = ({ className }) => {
       title={
         <div className={'swaps-header'}>
           <Typography variant='h3' className={'title-header'}>
-            Usuarios
+            Publicaciones
           </Typography>
           {/* <Button
             color='primary'
